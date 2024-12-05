@@ -369,6 +369,7 @@ config ZMK_MOUSE
     bool "Enable ZMK mouse emulation"
 
 endmenu # Mouse Options
+rsource "src/mouse/Kconfig"
 
 menu "Power Management"
 
